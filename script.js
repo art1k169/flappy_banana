@@ -1,8 +1,8 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
-// --- ЗВУК ---
-const jumpSound = new Audio('jump.mp3'); 
+// --- ЗВУК (ИСПРАВЛЕНО ПОД ТВОЙ РЕПОЗИТОРИЙ) ---
+const jumpSound = new Audio('Jump.mp3'); 
 jumpSound.volume = 0.4;
 
 function resize() {
