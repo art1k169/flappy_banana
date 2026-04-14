@@ -1,8 +1,8 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
-// --- ЗВУК (ИСПРАВЛЕНО ПОД ТВОЙ РЕПОЗИТОРИЙ) ---
-const jumpSound = new Audio('Jump.mp3?v=2');
+// Добавь любой символ после вопросительного знака
+const jumpSound = new Audio('Jump.mp3?v=1');
 function resize() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
