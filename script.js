@@ -3,7 +3,6 @@ const ctx = canvas.getContext("2d");
 
 // --- ЗВУК (ИСПРАВЛЕНО ПОД ТВОЙ РЕПОЗИТОРИЙ) ---
 const jumpSound = new Audio('Jump.mp3');
-jumpSound.volume = 0.4;
 
 function resize() {
     canvas.width = window.innerWidth;
